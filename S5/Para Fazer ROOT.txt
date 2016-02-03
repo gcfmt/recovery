@@ -1,0 +1,10 @@
+Caso o root pelo kingo ou iroot nao funcione:
+
+1. Instalar o CWM recovery presente nessa pasta via ODIN;
+2. Entrar em modo CWM recovery - CIMA + POWER + HOME;
+3. Instalar o arquivo UPDATE-SuperSU-v2.45_g900h.zip através de uma das três opções:
+	a) Copiar para cartão SD, inserí-lo no aparelho e selecionar no CWM a opção install zip from external storage;
+	b) Copiar para a memória interna (a mesma pasta que aparece no windows explorer quando o celular é ligado no PC)
+		e selecionar no CWM a opção install zip from sdcard (lembrando que sdcard é o nome da partição interna);
+	c) Selecionar a opção install via sideload, conectar o celular no pc, abrir uma linha de comando na pasta do arquivo UPDATE-SuperSU-v2.45_g900h.zip e digitar
+		adb sideload UPDATE-SuperSU-v2.45_g900h.zip (o adb deve estar instalado).
